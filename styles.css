@@ -1,39 +1,80 @@
-body{
-    padding:0;
-    margin:0;
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
 }
-#page{
-    display: flex; 
+a {
+  text-decoration: none;
+  color: rgb(216, 213, 213);
 }
-#page aside{
-width: 30%;
-background-color: #7451eb;
-color:#fff;
+a:hover {
+  font-weight: 500;
 }
-
-#page aside img{
-    width: 30%;
-    border-radius: 50%;
-    Margin:auto;
-    display: block;
-
-
-}
-#page aside h3{
-    color:#7451eb;
-    background-color: #fff;
-    text-align: center;
-    padding: 5px;
-}
-#page aside .content{
-    margin-left:10%;
-    font-size:1.2em;
+#page {
+  display: flex;
 }
 
-
-#page main{
-    width:70%;
+#page main {
+  width: 70%;
 }
-.blue{
-    color: #7451eb;
+/*Aside*/
+#page aside h3 {
+  color: #7451eb;
+  background-color: #fff;
+  text-align: center;
+  padding: 8px;
+  text-transform: uppercase;
+}
+#page aside {
+  width: 20%;
+  height: 100%;
+  background-color: #7451eb;
+  color: rgb(216, 213, 213);
+  font-size: 14px;
+}
+
+#page aside img {
+  width: 40%;
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+  -webkit-box-shadow: 6px -2px 12px -4px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 6px -2px 12px -4px rgba(0, 0, 0, 0.5);
+  box-shadow: 6px -2px 12px -4px rgba(0, 0, 0, 0.5);
+}
+
+/*contact*/
+
+#page aside .content-contact {
+  margin-left: 10%;
+  margin-bottom: 25px;
+}
+.blue {
+  color: #7451eb;
+}
+.white {
+  display: block;
+  color: #fff;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+/*a propos*/
+
+#a-propos p {
+  margin: 10%;
+  margin-bottom: 25px;
+  font-size: 13px;
+}
+
+/*loisir*/
+#loisirs {
+  margin-bottom: 25px
+}
+#loisirs i {
+  font-size: 20px;
+  text-align: center;
+  margin-left: 10%;
+  padding: 15px;
+  border: 1px solid rgb(216, 213, 213);
+  border-radius: 50%;
 }
