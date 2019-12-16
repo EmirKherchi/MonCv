@@ -37,11 +37,13 @@ h4 {
 /*---ASIDE----*/
 
 #page aside h3 {
-    color: rgb(216, 213, 213);
-    background-color: #424242;
+    color: #607D8B;
+    background-color: #272727;
     text-align: center;
     padding: 8px;
     text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
 }
 
 #page aside {
