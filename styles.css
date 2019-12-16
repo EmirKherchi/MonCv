@@ -1,150 +1,211 @@
 body {
-  padding: 0;
-  margin: 0;
-  color: #4a4a4a;
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px;;
+    padding: 0;
+    margin: 0;
+    color: #4a4a4a;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    ;
 }
+
 a {
-  text-decoration: none;
-  color: rgb(216, 213, 213);
+    text-decoration: none;
+    color: rgb(216, 213, 213);
 }
+
 a:hover {
-  font-weight: 500;
+    font-weight: 500;
 }
+
 #page {
-  display: flex;
+    display: flex;
 }
+
 h2 {
-  
-  font-weight: 400;
-  text-transform: uppercase;
+    font-weight: 400;
+    text-transform: uppercase;
 }
-h4{
+
+h4 {
     font-weight: 400;
 }
+
 #page main {
-  width: 70%;
+    width: 70%;
 }
+
+
 /*---ASIDE----*/
+
 #page aside h3 {
-  color: rgb(216, 213, 213);
-  background-color: #424242;
-  text-align: center;
-  padding: 8px;
-  text-transform: uppercase;
+    color: rgb(216, 213, 213);
+    background-color: #424242;
+    text-align: center;
+    padding: 8px;
+    text-transform: uppercase;
 }
+
 #page aside {
-  width: 20%;
-  height: 100%;
-  background-color: #607d8b;
-  color: rgb(216, 213, 213);
-  font-size: 14px;
-  -webkit-box-shadow: 1px 0px 6px 1px rgba(0, 0, 0, 0.22);
-  -moz-box-shadow: 1px 0px 6px 1px rgba(0, 0, 0, 0.22);
-  box-shadow: 1px 0px 6px 1px rgba(0, 0, 0, 0.22);
+    width: 20%;
+    height: 100%;
+    background-color: #607d8b;
+    color: rgb(216, 213, 213);
+    font-size: 14px;
+    -webkit-box-shadow: 1px 0px 6px 1px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 1px 0px 6px 1px rgba(0, 0, 0, 0.22);
+    box-shadow: 1px 0px 6px 1px rgba(0, 0, 0, 0.22);
 }
 
 #page aside img {
-  width: 40%;
-  border-radius: 50%;
-  margin: auto;
-  display: block;
-  -webkit-box-shadow: 6px -2px 12px -4px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 6px -2px 12px -4px rgba(0, 0, 0, 0.5);
-  box-shadow: 6px -2px 12px -4px rgba(0, 0, 0, 0.5);
+    width: 40%;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    -webkit-box-shadow: 6px -2px 12px -4px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 6px -2px 12px -4px rgba(0, 0, 0, 0.5);
+    box-shadow: 6px -2px 12px -4px rgba(0, 0, 0, 0.5);
 }
+
 
 /*contact*/
 
 #page aside .content-contact {
-  margin-left: 10%;
-  margin-bottom: 25px;
+    margin-left: 10%;
+    margin-bottom: 25px;
 }
+
 .strong {
-  color: #fff;
-  font-weight: 600;
+    color: #fff;
+    font-weight: 600;
 }
+
 .white {
-  display: block;
-  color: #fff;
-  font-weight: 600;
-  padding-bottom: 5px;
+    display: block;
+    color: #fff;
+    font-weight: 600;
+    padding-bottom: 5px;
 }
+
+
 /*a propos*/
+
 #a-propos {
-  margin-bottom: 220px;
+    margin-bottom: 220px;
 }
 
 #a-propos p {
-  margin: 10%;
-  padding-bottom: 2px;
-  font-size: 13, 5px;
+    margin: 10%;
+    padding-bottom: 2px;
+    font-size: 13, 5px;
 }
 
+
 /*loisir*/
+
 #loisirs {
-  display: block;
-  margin-bottom: 10px;
-  text-align: center;
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
 }
+
 #loisirs i {
-  font-size: 25px;
-  padding: 15px;
-  margin: 20px 15px;
-  border: 1px solid #fff;
-  border-radius: 50%;
+    font-size: 25px;
+    padding: 15px;
+    margin: 20px 15px;
+    border: 1px solid #fff;
+    border-radius: 50%;
 }
+
 
 /*-----MAIN -----*/
 
 main {
-  margin: 3% 5% 2% 5%;
+    margin: 3% 5% 2% 5%;
 }
+
 main h1 {
-  letter-spacing: 1px;
-  font-weight: 500;
-  font-size: 35px;;
-  text-transform: uppercase;
-  color: #000;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 0px;
 }
+
 main h2 {
-  letter-spacing: 1px;
-  font-weight: 400;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 150px;
+    margin-top: 0px;
+    text-transform: initial;
 }
+
 main #under {
-  border-bottom: 2px solid#607D8B;
+    border-bottom: 2px solid#607D8B;
 }
-main #name{
-  color:#607d8b;
+
+main #name {
+    color: #607d8b;
+    font-weight: 900;
 }
-main ul li{
+
+main ul li {
     list-style: none;
 }
 
-/*Formation*/
-#formation h2{
-margin-bottom: 25px;
+main section {
+    margin-bottom: 50px;
 }
-#course1,#course2{
+
+section h2 {
+    font-weight: 900;
+    color: #000;
+    border-bottom: 3px solid #607D8B;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+section h2 i {
+    margin-right: 35px;
+    color: #607D8B;
+}
+
+
+/*Formation*/
+
+#formation h2 {
+    margin-bottom: 25px;
+}
+
+#course1,
+#course2 {
     display: flex;
 }
-.date{
-    width:30%;
+
+.date {
+    width: 30%;
 }
-#formation .content-course{
+
+#formation .content-course {
     width: 70%;
     float: right;
 }
+
+
 /*jobs*/
-#jobs h2{
+
+#jobs h2 {
     margin-bottom: 25px;
-    }
-    #job1,#job2{
-        display: flex;
-    }
-    
-    #jobs .content-job{
-        width: 70%;
-        float: right;
-    }
+}
+
+#job1,
+#job2 {
+    display: flex;
+}
+
+#jobs .content-job {
+    width: 70%;
+    float: right;
+}
