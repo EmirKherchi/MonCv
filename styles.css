@@ -155,6 +155,19 @@ main ul li {
     list-style: none;
 }
 
+main ul li .fa-circle{
+    font-size: 8px;
+    padding-right: 10px;;
+    margin-left: -20px;
+    color: #607D8B;
+}
+main ul li .fa-dot-circle{
+    
+    padding-right: 10px;;
+    margin-left: -25px;
+    color: #607D8B;
+}
+
 main section {
     margin-bottom: 50px;
 }
