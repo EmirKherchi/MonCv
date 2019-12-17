@@ -1,3 +1,17 @@
+/*Media queries*/
+@media only screen and (max-width:1100px) {
+    body, main, aside, h1, h2, h3, h4, p, i{
+    font-size: 105% !important;
+     }
+    #page{
+        min-height: 1500px!important;
+    }
+    img{
+        width: 90% !important;
+    }
+
+   }
+
 body {
   padding: 0;
   margin: 0;
@@ -102,8 +116,7 @@ h4 {
   margin-bottom: 10px;
   text-align: center;
   height: 300px;
-  padding-top: 25%;  
- 
+  padding-top: 25%;
 }
 
 #loisirs i {
