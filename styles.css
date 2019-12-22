@@ -3,9 +3,7 @@
   body {
     font-size: 70% !important;
   }
-  img {
-    width: 40% !important;
-  }
+  
   #page main {
     width: 100% !important;
   }
@@ -24,6 +22,11 @@
     font-size: 12px;
     text-align: left;
   }
+  
+  main {
+    margin: 0px !important;
+  }
+  
 }
 
 body {
@@ -57,7 +60,7 @@ h4 {
 }
 
 #page main {
-  width: 70%;
+  width: 80%;
 }
 
 /*---ASIDE----*/
