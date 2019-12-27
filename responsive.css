@@ -5,7 +5,7 @@ body {
 }
 
 #page main {
-    width: 95% !important;
+    width: 100% !important;
 }
 
 #page aside {
@@ -53,11 +53,12 @@ main section h4 {
 .content-job {
     margin-bottom: 20px;
     margin-top: 0px;
-    display: block;
+    width: 100% !important;
 }
 
 ul {
     display: inline;
+    font-size: 15px;
 }
 
 section h2 i {
@@ -72,4 +73,14 @@ section h2 {
 
 .date {
     width: 300px;
+}
+
+main ul li .fa-circle {
+    margin-left: 0px;
+    padding-right: 5px;
+}
+
+main ul li .fa-dot-circle {
+    margin-left: 0px;
+    padding-right: 5px;
 }
