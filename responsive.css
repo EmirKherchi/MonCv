@@ -6,6 +6,8 @@ body {
 
 #page main {
     width: 100% !important;
+    padding: 20px !important;
+    margin: 0px;
 }
 
 #page aside {
@@ -19,10 +21,6 @@ body {
 
 #a-propos {
     margin-bottom: 20px !important;
-}
-
-main {
-    padding: 25px !important;
 }
 
 #course1,
