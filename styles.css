@@ -1,32 +1,3 @@
-/*Media queries*/
-
-@media only screen and (max-width: 740px) {
-    body {
-        font-size: 70% !important;
-    }
-    #page main {
-        width: 100% !important;
-    }
-    #page aside {
-        width: 100% !important;
-    }
-    #page {
-        display: flex !important;
-        flex-direction: column !important;
-    }
-    #a-propos {
-        margin-bottom: 20px !important;
-    }
-    main ul li {
-        list-style: none;
-        font-size: 12px;
-        text-align: left;
-    }
-    main {
-        margin: 0px !important;
-    }
-}
-
 body {
     padding: 0;
     margin: 0;
