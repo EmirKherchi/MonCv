@@ -275,3 +275,14 @@ section h2 i {
 #reco a {
     color: #4a4a4a !important;
 }
+/*Boutton*/
+#bouton{
+    margin-top:50px;
+}
+#bouton .btn{
+    background-color: #379383 !important;
+    border: #379383;
+}
+#bouton .btn:hover{
+    background-color: #273E47 !important;
+}
