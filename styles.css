@@ -36,19 +36,19 @@ h4 {
 /*---ASIDE----*/
 
 #page aside h3 {
-    color: #607d8b;
-    background-color: #272727;
+    color: #C2C5BB;
+    background-color: #273E47;
     text-align: center;
     padding: 8px;
     text-transform: uppercase;
-    font-weight: 900;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 #page aside {
     width: 20%;
-    background-color: #607d8b;
-    color: rgb(216, 213, 213);
+    background-color: #379383;
+    color: #C2C5BB;
     font-size: 14px;
     -webkit-box-shadow: 1px 0px 6px 1px rgba(0, 0, 0, 0.22);
     -moz-box-shadow: 1px 0px 6px 1px rgba(0, 0, 0, 0.22);
@@ -58,7 +58,7 @@ h4 {
 #page aside img {
     width: 40%;
     border-radius: 50%;
-    margin: auto;
+     margin: auto;
     display: block;
     -webkit-box-shadow: 6px -2px 12px -4px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 6px -2px 12px -4px rgba(0, 0, 0, 0.5);
@@ -89,7 +89,7 @@ h4 {
 /*a propos*/
 
 #a-propos {
-    margin-bottom: 220px;
+    margin-bottom: 150px;
 }
 
 #a-propos p {
@@ -114,6 +114,7 @@ h4 {
     padding: 15px;
     margin: 20px 15px;
     border: 1px solid #fff;
+    color: #273E47 !important;
     border-radius: 50%;
 }
 
@@ -158,12 +159,12 @@ main section p {
 }
 
 main #under {
-    border-bottom: 2px solid#607D8B;
+    border-bottom: 2px solid#379383;
 }
 
 main #name {
-    color: #607d8b;
-    font-weight: 900;
+    color: #379383;
+    font-weight: 600;
 }
 
 main ul li {
@@ -174,13 +175,13 @@ main ul li .fa-circle {
     font-size: 8px;
     padding-right: 10px;
     margin-left: -20px;
-    color: #607d8b;
+    color: #379383;
 }
 
 main ul li .fa-dot-circle {
     padding-right: 10px;
     margin-left: -25px;
-    color: #607d8b;
+    color: #379383;
 }
 
 main section {
@@ -188,7 +189,7 @@ main section {
 }
 
 section h2 {
-    border-bottom: 3px solid #607d8b;
+    border-bottom: 3px solid #379383;
     text-transform: uppercase;
     font-size: 25px;
     padding-bottom: 10px;
@@ -196,8 +197,8 @@ section h2 {
 }
 
 section h2 i {
-    margin-right: 35px;
-    color: #607d8b;
+    margin-right: 30px;
+    color: #273E47;
 }
 
 
@@ -246,7 +247,7 @@ section h2 i {
 }
 
 #skills .progress-bar {
-    background-color: #607d8b !important;
+    background-color: #379383 !important;
     font-size: 15px !important;
     border-radius: 3px 0px 0px 3px;
     font-weight: 600 !important;
@@ -261,13 +262,16 @@ section h2 i {
 }
 
 #skills .off {
-    background-color: #272727 !important;
+    background-color: #273E47 !important;
     border-radius: 0px 3px 3px 0px;
+    font-size: 12px !important;
 }
 
 
 /*Reco*/
-
+#reco{
+    display: none;
+}
 #reco a {
     color: #4a4a4a !important;
 }
