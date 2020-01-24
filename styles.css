@@ -1,14 +1,14 @@
 body {
     padding: 0;
     margin: 0;
-    color: #4a4a4a;
+    color: #000;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
 }
 
 a {
     text-decoration: none !important;
-    color: rgb(216, 213, 213) !important;
+    color: #000;
 }
 
 a:hover {
@@ -36,8 +36,8 @@ h4 {
 /*---ASIDE----*/
 
 #page aside h3 {
-    color: #C2C5BB;
-    background-color: #273E47;
+    color: #fff;
+    background-color: #3C6997;
     text-align: center;
     padding: 8px;
     text-transform: uppercase;
@@ -47,8 +47,8 @@ h4 {
 
 #page aside {
     width: 20%;
-    background-color: #379383;
-    color: #C2C5BB;
+    background-color: #F2B741;
+    color: #000;
     font-size: 14px;
     -webkit-box-shadow: 1px 0px 6px 1px rgba(0, 0, 0, 0.22);
     -moz-box-shadow: 1px 0px 6px 1px rgba(0, 0, 0, 0.22);
@@ -60,9 +60,9 @@ h4 {
     border-radius: 50%;
     margin: 10% 25%;
     display: block;
-    -webkit-box-shadow: 6px -2px 12px -4px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 6px -2px 12px -4px rgba(0, 0, 0, 0.5);
-    box-shadow: 6px -2px 12px -4px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 1px 0px 6px 1px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 1px 0px 6px 1px rgba(0, 0, 0, 0.22);
+    box-shadow: 1px 0px 6px 1px rgba(0, 0, 0, 0.22);
 }
 
 
@@ -75,14 +75,14 @@ h4 {
     padding-top: 5px;
 }
 
-.strong {
-    color: #fff;
+strong {
+    color: #094074;
     font-weight: 600;
 }
 
 .white {
     display: block;
-    color: #fff;
+    color: #000;
     font-weight: 600;
     padding-bottom: 5px;
 }
@@ -115,7 +115,7 @@ h4 {
     padding: 15px;
     margin: 15px;
     border: 1px solid #fff;
-    color: #273E47 !important;
+    color: #094074 !important;
     border-radius: 50%;
 }
 
@@ -164,11 +164,11 @@ main section p {
 }
 
 main #under {
-    border-bottom: 2px solid#379383;
+    border-bottom: 2px solid#F2B741;
 }
 
 main #name {
-    color: #379383;
+    color: #F2B741;
     font-weight: 600;
 }
 
@@ -180,13 +180,13 @@ main ul li .fa-circle {
     font-size: 8px;
     padding-right: 10px;
     margin-left: -20px;
-    color: #379383;
+    color: #F2B741;
 }
 
 main ul li .fa-dot-circle {
     padding-right: 10px;
     margin-left: -25px;
-    color: #379383;
+    color: #F2B741;
 }
 
 main section {
@@ -194,7 +194,7 @@ main section {
 }
 
 section h2 {
-    border-bottom: 3px solid #379383;
+    border-bottom: 3px solid #F2B741;
     text-transform: uppercase;
     font-size: 25px;
     padding-bottom: 10px;
@@ -203,7 +203,7 @@ section h2 {
 
 section h2 i {
     margin-right: 30px;
-    color: #273E47;
+    color: #094074;
 }
 
 
@@ -255,7 +255,7 @@ section h2 i {
 }
 
 #skills .progress-bar {
-    background-color: #379383 !important;
+    background-color: #F2B741 !important;
     font-size: 15px !important;
     border-radius: 3px 0px 0px 3px;
     font-weight: 600 !important;
@@ -270,7 +270,7 @@ section h2 i {
 }
 
 #skills .off {
-    background-color: #273E47 !important;
+    background-color: #3C6997 !important;
     border-radius: 0px 3px 3px 0px;
     font-size: 12px !important;
 }
@@ -289,9 +289,9 @@ section h2 i {
     margin-top:50px;
 }
 #bouton .btn{
-    background-color: #379383 !important;
-    border: #379383;
+    background-color: #F2B741 !important;
+    border: #F2B741;
 }
 #bouton .btn:hover{
-    background-color: #273E47 !important;
+    background-color: #094074 !important;
 }
