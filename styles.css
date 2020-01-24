@@ -56,9 +56,9 @@ h4 {
 }
 
 #page aside img {
-    width: 40%;
+    width: 45%;  
     border-radius: 50%;
-     margin: auto;
+    margin: 10% 25%;
     display: block;
     -webkit-box-shadow: 6px -2px 12px -4px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 6px -2px 12px -4px rgba(0, 0, 0, 0.5);
@@ -71,6 +71,8 @@ h4 {
 #page aside .content-contact {
     margin-left: 10%;
     margin-bottom: 25px;
+    padding-right: 3%;
+    padding-top: 5px;
 }
 
 .strong {
@@ -89,12 +91,12 @@ h4 {
 /*a propos*/
 
 #a-propos {
-    margin-bottom: 150px;
+    margin-bottom: 50px;
+    margin-top: 70px;
 }
 
 #a-propos p {
     margin: 10%;
-    padding-bottom: 2px;
     font-size: 14px;
 }
 
@@ -103,16 +105,15 @@ h4 {
 
 #loisirs {
     display: block;
-    margin-bottom: 10px;
     text-align: center;
     height: 300px;
     padding-top: 25%;
 }
 
 #loisirs i {
-    font-size: 25px;
+    font-size: 20px;
     padding: 15px;
-    margin: 20px 15px;
+    margin: 15px;
     border: 1px solid #fff;
     color: #273E47 !important;
     border-radius: 50%;
@@ -138,9 +139,13 @@ main h2 {
     letter-spacing: 1px;
     font-weight: 400;
     font-size: 20px;
-    margin-bottom: 100px;
     margin-top: 0px;
     text-transform: initial;
+}
+main h6 {
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 15px;
 }
 
 main h3 {
@@ -148,14 +153,14 @@ main h3 {
     margin-bottom: 10px;
 }
 
-main h4 {
+main h5 {
     margin-bottom: 15px;
     font-weight: 400;
     font-size: 16px;
 }
 
 main section p {
-    margin-top: 5px;
+    margin: 20px 100px 50px 0px;
 }
 
 main #under {
@@ -204,6 +209,9 @@ section h2 i {
 
 /*Formation*/
 
+#formation{
+  margin-top: 100px;
+}
 #formation h2 {
     margin-bottom: 25px;
 }
@@ -277,6 +285,7 @@ section h2 i {
 }
 /*Boutton*/
 #bouton{
+  display: none;
     margin-top:50px;
 }
 #bouton .btn{
