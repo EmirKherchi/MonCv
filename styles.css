@@ -7,12 +7,14 @@ body {
 }
 
 a {
-    text-decoration: none !important;
+    text-decoration: none;
     color: #000;
 }
 
 a:hover {
     font-weight: 500;
+    text-decoration: none;
+    color: #fff;
 }
 
 #page {
@@ -56,7 +58,7 @@ h4 {
 }
 
 #page aside img {
-    width: 45%;  
+    width: 45%;
     border-radius: 50%;
     margin: 10% 25%;
     display: block;
@@ -115,7 +117,7 @@ strong {
     padding: 15px;
     margin: 15px;
     border: 1px solid #fff;
-    color: #094074 !important;
+    color: #094074;
     border-radius: 50%;
 }
 
@@ -142,10 +144,11 @@ main h2 {
     margin-top: 0px;
     text-transform: initial;
 }
+
 main h6 {
-  font-size: 12px;
-  font-weight: 300;
-  margin-top: 15px;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 15px;
 }
 
 main h3 {
@@ -209,9 +212,10 @@ section h2 i {
 
 /*Formation*/
 
-#formation{
-  margin-top: 100px;
+#formation {
+    margin-top: 100px;
 }
+
 #formation h2 {
     margin-bottom: 25px;
 }
@@ -255,43 +259,50 @@ section h2 i {
 }
 
 #skills .progress-bar {
-    background-color: #F2B741 !important;
-    font-size: 15px !important;
+    background-color: #F2B741;
+    font-size: 15px;
     border-radius: 3px 0px 0px 3px;
-    font-weight: 600 !important;
+    font-weight: 600;
 }
 
 #skills .progress {
     margin-top: 15px;
-    height: 25px !important;
-    background-color: transparent !important;
+    height: 25px;
+    background-color: transparent;
     margin-bottom: 25px;
-    padding-right: 55px !important;
+    padding-right: 55px;
 }
 
 #skills .off {
-    background-color: #3C6997 !important;
+    background-color: #3C6997;
     border-radius: 0px 3px 3px 0px;
-    font-size: 12px !important;
+    font-size: 12px;
 }
 
 
 /*Reco*/
-#reco{
+
+#reco {
     display: none;
 }
+
 #reco a {
-    color: #4a4a4a !important;
+    color: #4a4a4a;
 }
+
+
 /*Boutton*/
-#bouton{
-  display: none;
-    margin-top:50px;
+
+#bouton {
+    margin-top: 50px;
 }
-#bouton .btn{
-    background-color: #F2B741 !important;
+
+#bouton .btn {
+    background-color: #F2B741;
     border: #F2B741;
 }
-#bouton .btn:hover{
-    background-color: #094074 !important;
+
+#bouton .btn:hover {
+    background-color: #094074;
+    color: #fff;
 }
