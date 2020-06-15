@@ -34,6 +34,15 @@ h4 {
     width: 80%;
 }
 
+.listSkills{
+    padding-top: 0;
+    padding-bottom: 50px;
+    padding-inline-start: 0px;
+    margin-block-end: 0;
+}
+ .listSkills li{
+    padding: 0;
+}
 
 /*---ASIDE----*/
 
@@ -58,8 +67,8 @@ h4 {
 }
 
 #page aside img {
-    width: 45%;
-    border-radius: 50%;
+    width: 55%;
+    border-radius: 4px;
     margin: 10% 25%;
     display: block;
     -webkit-box-shadow: 1px 0px 6px 1px rgba(0, 0, 0, 0.22);
@@ -233,6 +242,12 @@ section h2 i {
     width: 70%;
     float: right;
 }
+#listSkillsOCRTitle{
+    padding-bottom: 20px;
+    margin: 0;
+    font-weight: 600;
+}
+
 
 
 /*jobs*/
@@ -251,6 +266,16 @@ section h2 i {
     float: right;
 }
 
+.freelanceProject{
+    font-weight: 600;
+    color: #094074;
+    text-decoration: underline;
+}
+.freelanceProject:hover{
+    font-weight: 600;
+    color: #26425d;
+}
+
 
 /*skills*/
 
@@ -261,6 +286,8 @@ section h2 i {
 #skills .progress-bar {
     background-color: #F2B741;
     font-size: 15px;
+    color: #094074;
+    
     border-radius: 3px 0px 0px 3px;
     font-weight: 600;
 }
@@ -275,6 +302,7 @@ section h2 i {
 
 #skills .off {
     background-color: #3C6997;
+    color: #fff;
     border-radius: 0px 3px 3px 0px;
     font-size: 12px;
 }
@@ -283,7 +311,7 @@ section h2 i {
 /*Reco*/
 
 #reco {
-    display: none;
+    
 }
 
 #reco a {
@@ -295,6 +323,7 @@ section h2 i {
 
 #bouton {
     margin-top: 50px;
+    display: none;
 }
 
 #bouton .btn {
