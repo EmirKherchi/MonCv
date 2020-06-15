@@ -308,22 +308,13 @@ section h2 i {
 }
 
 
-/*Reco*/
-
-#reco {
-    
-}
-
-#reco a {
-    color: #4a4a4a;
-}
 
 
 /*Boutton*/
 
 #bouton {
     margin-top: 50px;
-    display: none;
+    display: block;
 }
 
 #bouton .btn {
