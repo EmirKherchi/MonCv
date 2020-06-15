@@ -314,7 +314,7 @@ section h2 i {
 
 #bouton {
     margin-top: 50px;
-    display: none;
+    display: block;
 }
 
 #bouton .btn {
