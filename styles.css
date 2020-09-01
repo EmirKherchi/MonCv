@@ -95,6 +95,11 @@ strong {
     padding-bottom: 5px;
 }
 
+.portfolio{
+ font-size: 18px;
+ font-weight: 900;
+ color:#094074;
+}
 
 /*a propos*/
 
@@ -137,7 +142,7 @@ main {
 main h1 {
     letter-spacing: 1px;
     font-weight: lighter;
-    font-size: 45px;
+    font-size: 40px;
     text-transform: uppercase;
     color: #000;
     margin-bottom: 0px;
@@ -146,7 +151,7 @@ main h1 {
 main h2 {
     letter-spacing: 1px;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 0px;
     text-transform: initial;
 }
