@@ -82,3 +82,9 @@ main ul li .fa-dot-circle {
     margin-left: 0px;
     padding-right: 5px;
 }
+#skills img{
+    margin: 15px;
+}
+#skills .row{
+    margin: 0px;
+}
